@@ -14,7 +14,6 @@ import java.util.regex.*;
 public class Burp2Jmx {
 
     public static void main(String[] args) {
-        /*
         if (args.length < 4) {
             System.out.println("Usage: java JMeterBurpGenerator <input_jmx> <burp_dump> <controller_name> <output_jmx>");
             return;
@@ -24,13 +23,6 @@ public class Burp2Jmx {
         String burpDumpPath = args[1];
         String controllerName = args[2];
         String outputJmxPath = args[3];
-*/
-
-        String inputJmxPath = "/home/styx/Projects/GISSIC-Projects/exámenes/config/examenes.jmx";
-        String burpDumpPath = "/home/styx/Projects/GISSIC-Projects/exámenes/recon/burp_dumps/GESTIONAR_NOTAS.xml";
-        String controllerName = "GESTIONAR NOTAS";
-        String outputJmxPath = "/home/styx/Projects/GISSIC-Projects/exámenes/config/examenes.jmx";
-
 
         try {
             // Parse JMX template
